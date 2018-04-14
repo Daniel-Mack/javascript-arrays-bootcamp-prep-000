@@ -12,7 +12,11 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 function addElementToEndOfArray(array, element) {
   var myArray = [...array, element]
+<<<<<<< HEAD
   return myArray
+=======
+ return myArray
+>>>>>>> 572094b3cb6f11688bfd18abdc2f5711095e5d5d
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
@@ -21,6 +25,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
+<<<<<<< HEAD
   return array[index]
 }
 
@@ -40,4 +45,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 function removeElementFromEndOfArray(array) {
 return array.slice(0, array.length - 1)
+=======
+  chocolateBars[0]
+return index
+>>>>>>> 572094b3cb6f11688bfd18abdc2f5711095e5d5d
 }
